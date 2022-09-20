@@ -14,13 +14,10 @@
     "app.plugin.js"
   ],
   "scripts": {
-    "build": "expo-module build",
-    "clean": "expo-module clean",
-    "lint": "expo-module lint",
-    "test": "expo-module test",
-    "prepare": "expo-module prepare",
-    "prepublishOnly": "expo-module prepublishOnly",
-    "expo-module": "expo-module"
+    "bootstrap": "pnpm install && pnpm build",
+    "build": "tsc --build",
+    "clean": "rm -rf build tsconfig.tsbuildinfo",
+    "clean:lib": "rm -rf node_modules"
   },
   "keywords": [
     "react-native",
@@ -33,6 +30,12 @@
     "expo": "^46.0.2"
   },
   "devDependencies": {
-    "expo-module-scripts": "^2.0.0"
+    "@babel/core": "^7.19.1",
+    "@tsconfig/node16": "^1.0.0",
+    "eslint": "^8.23.0",
+    "prettier": "^2.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.8.0"
   }
 }

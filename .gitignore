@@ -12,6 +12,7 @@ test-results
 .pnpm-store
 tsconfig.tsbuildinfo
 
+pnpm-lock.yaml
 yarn.lock
 .env
 *.local

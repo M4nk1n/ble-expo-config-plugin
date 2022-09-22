@@ -1,5 +1,9 @@
 # ble-expo-config-plugin
 
+Deprecated. Followed by [expo-config-plugin/expo-config-plugin-ble](https://github.com/M4nk1n/expo-config-plugin/tree/main/packages/expo-config-plugin-ble).
+
+---
+
 > Fork from: [config-plugins/react-native-ble-plx](https://github.com/expo/config-plugins/tree/main/packages/react-native-ble-plx)
 
 Config plugin to auto-configure ble permission when the native code is generated (`expo prebuild`).

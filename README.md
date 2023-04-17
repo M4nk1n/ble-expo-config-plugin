@@ -1,6 +1,6 @@
 # ble-expo-config-plugin
 
-Deprecated. Followed by [expo-config-plugin/expo-config-plugin-ble](https://github.com/M4nk1n/expo-config-plugin/tree/main/packages/expo-config-plugin-ble).
+Deprecated. Followed by [expo-modules/mods/expo-mods-ble](https://github.com/M4nk1n/expo-modules/tree/main/mods/expo-mods-ble).
 
 ---
 
